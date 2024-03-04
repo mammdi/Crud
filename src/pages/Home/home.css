@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.bg-1{
+    background: url(../../assest/promo-video-back.jpg) fixed no-repeat;
+    background-size: cover;
+}
+.rotated-icon {
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.video-promo .content-block {
+    text-align: center;
+}
+
+/* swiper */
+.swiper {
+    width: 90%;
+    height: 90%;
+    margin: 10px auto;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 592px;
+    height: 100%;
+    padding: 20px;
+    margin-right: 30px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 6%;
+  }
+/* swiper */
